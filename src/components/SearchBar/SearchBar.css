@@ -1,0 +1,43 @@
+.search {
+    position: absolute;
+    top: 1rem;
+    left: 30%;
+    z-index: 10;
+}
+
+.search input {
+    font-size: 18px;
+    width:400px;
+    height: 25px;
+}
+
+.search button {
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+}
+
+.itemcontainer {
+    border-radius: 5px;
+    background-color: aliceblue;
+    opacity: 0.9;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+li:hover{
+    background-color: aquamarine;
+    
+}
+
+.autocomplete {
+    left: 30%;
+}
+
+.button {
+    left:30%;
+}
